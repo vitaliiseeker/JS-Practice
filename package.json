@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://vitaliiseeker.github.io/goit-js-hw-08",
+  "homepage": "https://vitaliiseeker.github.io/JS-Practice",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /JS-Practice/"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "debounce": "^1.2.1",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.10.3",
-    "lodash.throttle": "^4.1.1"
+    "throttle": "^1.0.3"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
