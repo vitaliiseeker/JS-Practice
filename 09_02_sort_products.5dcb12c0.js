@@ -1,0 +1,2 @@
+!function(){var o,l=[{id:"sku1",qty:1},{id:"sku2",qty:2},{id:"sku3",qty:3},{id:"sku1",qty:6},{id:"sku1",qty:8},{id:"sku2",qty:19},{id:"sku4",qty:1}];console.log(l),console.log(((o=l).forEach((function(l,t,s){console.log(t),console.log(o[t].qty),o[t].qty+=o.splice(s.slice(t+1).reduce((function(s,c,i,n){return c.id===l.id&&(console.log(s),console.log(c.qty),console.log(o[t].qty),o[t].qty+=c.qty,console.log(o[t].qty),o.splice(i-t+1,1)),s}),o[t].qty))})),o))}();
+//# sourceMappingURL=09_02_sort_products.5dcb12c0.js.map
